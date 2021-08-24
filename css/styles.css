@@ -15,6 +15,17 @@ body{
   background: linear-gradient(to right, #feb47b, #ff7e5f);
 }
 
+nav{
+  background-color: rgba(64, 224, 208, 0.699);
+  text-align: center;
+  padding: 2rem;
+}
+a{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
 #main{
   display: flex;
   flex-direction: column;

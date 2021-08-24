@@ -5,6 +5,8 @@ class UI {
   }
 
   validar(){
+    /* Validar */
+
     return true;
   }
 
