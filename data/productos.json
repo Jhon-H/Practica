@@ -1,0 +1,63 @@
+{
+  "camisas": [
+    {
+      "img": "h....1",
+      "nombre": "camsisa1",
+      "precio": 12,
+      "id": 1
+    },
+    {
+      "img": "h....1",
+      "nombre": "camsisa2",
+      "precio": 12,
+      "id": 2
+    },
+    {
+      "img": "h....1",
+      "nombre": "camsisa3",
+      "precio": 12,
+      "id": 3
+    }
+  ],
+
+  "pantalones": [
+    {
+      "img": "h....1",
+      "nombre": "pantalon1",
+      "precio": 12,
+      "id": 1
+    },
+    {
+      "img": "h....1",
+      "nombre": "pantalon2",
+      "precio": 12,
+      "id": 2
+    },
+    {
+      "img": "h....1",
+      "nombre": "pantalon3",
+      "precio": 12,
+      "id": 3
+    }
+  ],
+  "zapatos": [
+    {
+      "img": "h....1",
+      "nombre": "zapato1",
+      "precio": 12,
+      "id": 1
+    },
+    {
+      "img": "h....1",
+      "nombre": "zapato2",
+      "precio": 12,
+      "id": 2
+    },
+    {
+      "img": "h....1",
+      "nombre": "zapato3",
+      "precio": 12,
+      "id": 3
+    }
+  ]
+}

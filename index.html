@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
   <title> Tienda de Ropa </title>
 </head>
 <body>
@@ -12,13 +13,17 @@
       <select name="categorias" id="categorias">
         <option value="default" selected disabled>  Elegir tipo </option>
         <option value="Camisa"> Camisas </option>
-        <option value="Jean"> Jean </option>
+        <option value="Jean"> Jeans </option>
         <option value="Zapatos"> Zapatos </option>
       </select>
-      <input type="submit" value="Filtrar" />
+      <input type="submit" id="submit" value="Filtrar" />
     </form>
+
+    <div id="info-productos">
+      <!-- Javascript injection -->
+    </div>
   </main>
 
-
+  <script src="scripts/main.js"></script>
 </body>
 </html>
