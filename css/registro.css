@@ -16,7 +16,7 @@ body{
 }
 
 nav{
-  background-color: rgba(64, 224, 208, 0.699);
+  background-color: rgba(223, 231, 230, 0.8);
   text-align: center;
   padding: 2rem;
 }
@@ -63,6 +63,9 @@ input{
   border: none;
 }
 
+
+
+
 label{
   display: block;
   color: rgb(51, 51, 51);
@@ -84,7 +87,16 @@ select{
 
 input[type="button"]{
   margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: gray;
 }
+
+input[type="button"]:hover{
+  background-color: rgba(64, 224, 208, 0.699);
+  color: white;
+}
+
 
 @media screen and (max-width: 1000px) {
   #main{

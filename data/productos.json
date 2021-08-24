@@ -13,9 +13,9 @@
       "id": 2
     },
     {
-      "img": "h....1",
-      "nombre": "camsisa3",
-      "precio": 12,
+      "img": "h......1",
+      "nombre": "Camisa3",
+      "precio": 123,
       "id": 3
     }
   ],
@@ -31,12 +31,6 @@
       "nombre": "pantalon2",
       "precio": 12,
       "id": 2
-    },
-    {
-      "img": "h....1",
-      "nombre": "pantalon3",
-      "precio": 12,
-      "id": 3
     }
   ],
   "zapatos": [
@@ -51,12 +45,6 @@
       "nombre": "zapato2",
       "precio": 12,
       "id": 2
-    },
-    {
-      "img": "h....1",
-      "nombre": "zapato3",
-      "precio": 12,
-      "id": 3
     }
   ]
 }

@@ -16,7 +16,7 @@ body{
 }
 
 nav{
-  background-color: rgba(64, 224, 208, 0.699);
+  background-color: rgba(223, 231, 230, 0.8);
   text-align: center;
   padding: 2rem;
 }
@@ -78,7 +78,7 @@ a{
 }
 
 #submit:hover{
-  background-color: aqua;
+  border: .3rem solid crimson;
 }
 
 @media screen and (max-width: 1000px) {
@@ -113,7 +113,7 @@ a{
 #producto{
   width: 30rem;
   margin: 2rem 1rem;
-  background-color: rgb(210, 250, 255);
+  background-color: rgba(247, 255, 210, 0.377);
   border-radius: 1rem;
   text-align: center;
 }
