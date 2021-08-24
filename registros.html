@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/registro.css">
+  <title> Registro </title>
+</head>
+<body>
+  <main>
+    <form id="form-registro">
+      <div id="datos">
+        <label for="nombre"> Nombre </label>
+        <input type="text" id="nombre" placeholder="Nombre de producto" />
+
+        <label for="precio"> Precio  </label>
+        <input type="number" id="precio" min="0" step=".5" max="1000" id="precio" placeholder="Nombre de producto" />
+
+        <label for="id"> Id  </label>
+        <input type="number" id="id" min="0" step=".5" max="1000" id="precio" placeholder="Id de producto" />
+
+        <select name="categorias" id="categorias">
+          <option value="Camisa"> Camisas </option>
+          <option value="Jean"> Jeans </option>
+          <option value="Zapatos"> Zapatos </option>
+        </select>        
+      </div>
+
+      <div id="botones-div">
+        <input type="button" id="guardar" value="Guardar" />
+        <input type="button" id="modificar" value="Modificar" />
+        <input type="button" id="eliminar" value="Eliminar" />
+      </div>
+    </form>  <!-- POner imagen a un lado-->
+  </main>
+
+  <script src="scripts/regristro.js"></script>
+</body>
+</html>
